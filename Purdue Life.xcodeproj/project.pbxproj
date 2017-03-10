@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467A09E61E724C95004E215C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A09E51E724C95004E215C /* AppDelegate.swift */; };
+		467A09E81E724C95004E215C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A09E71E724C95004E215C /* ViewController.swift */; };
+		467A09EB1E724C95004E215C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467A09E91E724C95004E215C /* Main.storyboard */; };
+		467A09ED1E724C95004E215C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467A09EC1E724C95004E215C /* Assets.xcassets */; };
+		467A09F01E724C95004E215C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467A09EE1E724C95004E215C /* LaunchScreen.storyboard */; };
+		467A09FB1E724C95004E215C /* Purdue_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A09FA1E724C95004E215C /* Purdue_LifeTests.swift */; };
+		467A0A061E724C95004E215C /* Purdue_LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A0A051E724C95004E215C /* Purdue_LifeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		467A09F71E724C95004E215C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467A09DA1E724C95004E215C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A09E11E724C95004E215C;
+			remoteInfo = "Purdue Life";
+		};
+		467A0A021E724C95004E215C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467A09DA1E724C95004E215C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A09E11E724C95004E215C;
+			remoteInfo = "Purdue Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		467A09E21E724C95004E215C /* Purdue Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Purdue Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A09E51E724C95004E215C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		467A09E71E724C95004E215C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		467A09EA1E724C95004E215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		467A09EC1E724C95004E215C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467A09EF1E724C95004E215C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		467A09F11E724C95004E215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467A09F61E724C95004E215C /* Purdue LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purdue LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A09FA1E724C95004E215C /* Purdue_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purdue_LifeTests.swift; sourceTree = "<group>"; };
+		467A09FC1E724C95004E215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467A0A011E724C95004E215C /* Purdue LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purdue LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A0A051E724C95004E215C /* Purdue_LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purdue_LifeUITests.swift; sourceTree = "<group>"; };
+		467A0A071E724C95004E215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467A09DF1E724C95004E215C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A09F31E724C95004E215C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A09FE1E724C95004E215C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467A09D91E724C95004E215C = {
+			isa = PBXGroup;
+			children = (
+				467A09E41E724C95004E215C /* Purdue Life */,
+				467A09F91E724C95004E215C /* Purdue LifeTests */,
+				467A0A041E724C95004E215C /* Purdue LifeUITests */,
+				467A09E31E724C95004E215C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		467A09E31E724C95004E215C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467A09E21E724C95004E215C /* Purdue Life.app */,
+				467A09F61E724C95004E215C /* Purdue LifeTests.xctest */,
+				467A0A011E724C95004E215C /* Purdue LifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467A09E41E724C95004E215C /* Purdue Life */ = {
+			isa = PBXGroup;
+			children = (
+				467A09E51E724C95004E215C /* AppDelegate.swift */,
+				467A09E71E724C95004E215C /* ViewController.swift */,
+				467A09E91E724C95004E215C /* Main.storyboard */,
+				467A09EC1E724C95004E215C /* Assets.xcassets */,
+				467A09EE1E724C95004E215C /* LaunchScreen.storyboard */,
+				467A09F11E724C95004E215C /* Info.plist */,
+			);
+			path = "Purdue Life";
+			sourceTree = "<group>";
+		};
+		467A09F91E724C95004E215C /* Purdue LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				467A09FA1E724C95004E215C /* Purdue_LifeTests.swift */,
+				467A09FC1E724C95004E215C /* Info.plist */,
+			);
+			path = "Purdue LifeTests";
+			sourceTree = "<group>";
+		};
+		467A0A041E724C95004E215C /* Purdue LifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				467A0A051E724C95004E215C /* Purdue_LifeUITests.swift */,
+				467A0A071E724C95004E215C /* Info.plist */,
+			);
+			path = "Purdue LifeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467A09E11E724C95004E215C /* Purdue Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A0A0A1E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue Life" */;
+			buildPhases = (
+				467A09DE1E724C95004E215C /* Sources */,
+				467A09DF1E724C95004E215C /* Frameworks */,
+				467A09E01E724C95004E215C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Purdue Life";
+			productName = "Purdue Life";
+			productReference = 467A09E21E724C95004E215C /* Purdue Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		467A09F51E724C95004E215C /* Purdue LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A0A0D1E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue LifeTests" */;
+			buildPhases = (
+				467A09F21E724C95004E215C /* Sources */,
+				467A09F31E724C95004E215C /* Frameworks */,
+				467A09F41E724C95004E215C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A09F81E724C95004E215C /* PBXTargetDependency */,
+			);
+			name = "Purdue LifeTests";
+			productName = "Purdue LifeTests";
+			productReference = 467A09F61E724C95004E215C /* Purdue LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		467A0A001E724C95004E215C /* Purdue LifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A0A101E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue LifeUITests" */;
+			buildPhases = (
+				467A09FD1E724C95004E215C /* Sources */,
+				467A09FE1E724C95004E215C /* Frameworks */,
+				467A09FF1E724C95004E215C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A0A031E724C95004E215C /* PBXTargetDependency */,
+			);
+			name = "Purdue LifeUITests";
+			productName = "Purdue LifeUITests";
+			productReference = 467A0A011E724C95004E215C /* Purdue LifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467A09DA1E724C95004E215C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Youssef Elabd";
+				TargetAttributes = {
+					467A09E11E724C95004E215C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					467A09F51E724C95004E215C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 467A09E11E724C95004E215C;
+					};
+					467A0A001E724C95004E215C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 467A09E11E724C95004E215C;
+					};
+				};
+			};
+			buildConfigurationList = 467A09DD1E724C95004E215C /* Build configuration list for PBXProject "Purdue Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467A09D91E724C95004E215C;
+			productRefGroup = 467A09E31E724C95004E215C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467A09E11E724C95004E215C /* Purdue Life */,
+				467A09F51E724C95004E215C /* Purdue LifeTests */,
+				467A0A001E724C95004E215C /* Purdue LifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467A09E01E724C95004E215C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A09F01E724C95004E215C /* LaunchScreen.storyboard in Resources */,
+				467A09ED1E724C95004E215C /* Assets.xcassets in Resources */,
+				467A09EB1E724C95004E215C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A09F41E724C95004E215C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A09FF1E724C95004E215C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467A09DE1E724C95004E215C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A09E81E724C95004E215C /* ViewController.swift in Sources */,
+				467A09E61E724C95004E215C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A09F21E724C95004E215C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A09FB1E724C95004E215C /* Purdue_LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A09FD1E724C95004E215C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A0A061E724C95004E215C /* Purdue_LifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		467A09F81E724C95004E215C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467A09E11E724C95004E215C /* Purdue Life */;
+			targetProxy = 467A09F71E724C95004E215C /* PBXContainerItemProxy */;
+		};
+		467A0A031E724C95004E215C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467A09E11E724C95004E215C /* Purdue Life */;
+			targetProxy = 467A0A021E724C95004E215C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		467A09E91E724C95004E215C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467A09EA1E724C95004E215C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		467A09EE1E724C95004E215C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467A09EF1E724C95004E215C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		467A0A081E724C95004E215C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		467A0A091E724C95004E215C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		467A0A0B1E724C95004E215C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Purdue Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Purdue-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		467A0A0C1E724C95004E215C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Purdue Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Purdue-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		467A0A0E1E724C95004E215C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Purdue LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Purdue-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Purdue Life.app/Purdue Life";
+			};
+			name = Debug;
+		};
+		467A0A0F1E724C95004E215C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Purdue LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Purdue-LifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Purdue Life.app/Purdue Life";
+			};
+			name = Release;
+		};
+		467A0A111E724C95004E215C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Purdue LifeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Purdue-LifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Purdue Life";
+			};
+			name = Debug;
+		};
+		467A0A121E724C95004E215C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Purdue LifeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "youssefelabd.com.Purdue-LifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Purdue Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467A09DD1E724C95004E215C /* Build configuration list for PBXProject "Purdue Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A0A081E724C95004E215C /* Debug */,
+				467A0A091E724C95004E215C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A0A0A1E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A0A0B1E724C95004E215C /* Debug */,
+				467A0A0C1E724C95004E215C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		467A0A0D1E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A0A0E1E724C95004E215C /* Debug */,
+				467A0A0F1E724C95004E215C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		467A0A101E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue LifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A0A111E724C95004E215C /* Debug */,
+				467A0A121E724C95004E215C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467A09DA1E724C95004E215C /* Project object */;
+}
