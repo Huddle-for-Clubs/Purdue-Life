@@ -13,3 +13,7 @@ The following are **optional**:
 - [ ] Custom backend used for data analysis
 - [ ] Users' class schedules integrated into app for better dinning court suggestions based on time to and distance from classes
 - [ ] User can see a map of campus and their path from dinning courts and classes
+
+# User Stories
+
+![alt tag](/FirstWireFrame.jpg)
