@@ -6,6 +6,7 @@ target 'Purdue Life' do
   use_frameworks!
 
   # Pods for Purdue Life
+pod 'AFNetworking'
 
   target 'Purdue LifeTests' do
     inherit! :search_paths

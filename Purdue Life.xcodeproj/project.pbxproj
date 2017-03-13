@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		247D24D7FFEC8AEB70C169D3 /* Pods_Purdue_LifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EEFA45D5C398DE79672F4F /* Pods_Purdue_LifeTests.framework */; };
 		467A09E61E724C95004E215C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A09E51E724C95004E215C /* AppDelegate.swift */; };
 		467A09E81E724C95004E215C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A09E71E724C95004E215C /* ViewController.swift */; };
 		467A09EB1E724C95004E215C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467A09E91E724C95004E215C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		467A09F01E724C95004E215C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467A09EE1E724C95004E215C /* LaunchScreen.storyboard */; };
 		467A09FB1E724C95004E215C /* Purdue_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A09FA1E724C95004E215C /* Purdue_LifeTests.swift */; };
 		467A0A061E724C95004E215C /* Purdue_LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A0A051E724C95004E215C /* Purdue_LifeUITests.swift */; };
+		5EF01929B05B8BC1A9B91B77 /* Pods_Purdue_LifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682106C3638F3286D0C589D8 /* Pods_Purdue_LifeUITests.framework */; };
+		99C55153A53A1A84931E9C08 /* Pods_Purdue_Life.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8799D2F5A9BAAEF12F6D10 /* Pods_Purdue_Life.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05B5D9353886ECEF5C2627D7 /* Pods-Purdue LifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purdue LifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purdue LifeTests/Pods-Purdue LifeTests.release.xcconfig"; sourceTree = "<group>"; };
 		467A09E21E724C95004E215C /* Purdue Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Purdue Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467A09E51E724C95004E215C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467A09E71E724C95004E215C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		467A0A011E724C95004E215C /* Purdue LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purdue LifeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467A0A051E724C95004E215C /* Purdue_LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purdue_LifeUITests.swift; sourceTree = "<group>"; };
 		467A0A071E724C95004E215C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467D45B176B6680C88483790 /* Pods-Purdue LifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purdue LifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purdue LifeUITests/Pods-Purdue LifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60537FC929D10CC148090D98 /* Pods-Purdue LifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purdue LifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purdue LifeTests/Pods-Purdue LifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61EEFA45D5C398DE79672F4F /* Pods_Purdue_LifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purdue_LifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C9C7AD9F2A37BACEE8F29F /* Pods-Purdue Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purdue Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purdue Life/Pods-Purdue Life.debug.xcconfig"; sourceTree = "<group>"; };
+		682106C3638F3286D0C589D8 /* Pods_Purdue_LifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purdue_LifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F273B1B2B32E7558E8C71 /* Pods-Purdue Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purdue Life.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purdue Life/Pods-Purdue Life.release.xcconfig"; sourceTree = "<group>"; };
+		AA8799D2F5A9BAAEF12F6D10 /* Pods_Purdue_Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purdue_Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0255F5DC4DB08F0EDA712A8 /* Pods-Purdue LifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purdue LifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purdue LifeUITests/Pods-Purdue LifeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C55153A53A1A84931E9C08 /* Pods_Purdue_Life.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247D24D7FFEC8AEB70C169D3 /* Pods_Purdue_LifeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF01929B05B8BC1A9B91B77 /* Pods_Purdue_LifeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				467A09F91E724C95004E215C /* Purdue LifeTests */,
 				467A0A041E724C95004E215C /* Purdue LifeUITests */,
 				467A09E31E724C95004E215C /* Products */,
+				4776CD7375209EFCC42FE5C0 /* Pods */,
+				62CE31FF16BA9A47897701C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "Purdue LifeUITests";
 			sourceTree = "<group>";
 		};
+		4776CD7375209EFCC42FE5C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66C9C7AD9F2A37BACEE8F29F /* Pods-Purdue Life.debug.xcconfig */,
+				A79F273B1B2B32E7558E8C71 /* Pods-Purdue Life.release.xcconfig */,
+				60537FC929D10CC148090D98 /* Pods-Purdue LifeTests.debug.xcconfig */,
+				05B5D9353886ECEF5C2627D7 /* Pods-Purdue LifeTests.release.xcconfig */,
+				467D45B176B6680C88483790 /* Pods-Purdue LifeUITests.debug.xcconfig */,
+				F0255F5DC4DB08F0EDA712A8 /* Pods-Purdue LifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62CE31FF16BA9A47897701C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8799D2F5A9BAAEF12F6D10 /* Pods_Purdue_Life.framework */,
+				61EEFA45D5C398DE79672F4F /* Pods_Purdue_LifeTests.framework */,
+				682106C3638F3286D0C589D8 /* Pods_Purdue_LifeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 467A0A0A1E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue Life" */;
 			buildPhases = (
+				310AC5BED15402A55D1293BE /* [CP] Check Pods Manifest.lock */,
 				467A09DE1E724C95004E215C /* Sources */,
 				467A09DF1E724C95004E215C /* Frameworks */,
 				467A09E01E724C95004E215C /* Resources */,
+				63155054DE96A4B3336885E4 /* [CP] Embed Pods Frameworks */,
+				65ED57D7704E81B7904969BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 467A0A0D1E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue LifeTests" */;
 			buildPhases = (
+				BF313E9D0812E48C48DBCF7C /* [CP] Check Pods Manifest.lock */,
 				467A09F21E724C95004E215C /* Sources */,
 				467A09F31E724C95004E215C /* Frameworks */,
 				467A09F41E724C95004E215C /* Resources */,
+				E1DBDA43D9CF7976C72CF056 /* [CP] Embed Pods Frameworks */,
+				D9D1428C9D3DDBD8609D0E13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 467A0A101E724C95004E215C /* Build configuration list for PBXNativeTarget "Purdue LifeUITests" */;
 			buildPhases = (
+				E665E99BD8CDCE87859539E3 /* [CP] Check Pods Manifest.lock */,
 				467A09FD1E724C95004E215C /* Sources */,
 				467A09FE1E724C95004E215C /* Frameworks */,
 				467A09FF1E724C95004E215C /* Resources */,
+				3F0728CA490FDCDD9FDA6A1B /* [CP] Embed Pods Frameworks */,
+				AF89CBB18BF659237CDCE138 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		310AC5BED15402A55D1293BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0728CA490FDCDD9FDA6A1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purdue LifeUITests/Pods-Purdue LifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63155054DE96A4B3336885E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purdue Life/Pods-Purdue Life-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65ED57D7704E81B7904969BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purdue Life/Pods-Purdue Life-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF89CBB18BF659237CDCE138 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purdue LifeUITests/Pods-Purdue LifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF313E9D0812E48C48DBCF7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D1428C9D3DDBD8609D0E13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purdue LifeTests/Pods-Purdue LifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1DBDA43D9CF7976C72CF056 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purdue LifeTests/Pods-Purdue LifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E665E99BD8CDCE87859539E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		467A09DE1E724C95004E215C /* Sources */ = {
@@ -408,6 +595,7 @@
 		};
 		467A0A0B1E724C95004E215C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C9C7AD9F2A37BACEE8F29F /* Pods-Purdue Life.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Purdue Life/Info.plist";
@@ -420,6 +608,7 @@
 		};
 		467A0A0C1E724C95004E215C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79F273B1B2B32E7558E8C71 /* Pods-Purdue Life.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Purdue Life/Info.plist";
@@ -432,6 +621,7 @@
 		};
 		467A0A0E1E724C95004E215C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60537FC929D10CC148090D98 /* Pods-Purdue LifeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +636,7 @@
 		};
 		467A0A0F1E724C95004E215C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B5D9353886ECEF5C2627D7 /* Pods-Purdue LifeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +651,7 @@
 		};
 		467A0A111E724C95004E215C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467D45B176B6680C88483790 /* Pods-Purdue LifeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Purdue LifeUITests/Info.plist";
@@ -473,6 +665,7 @@
 		};
 		467A0A121E724C95004E215C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0255F5DC4DB08F0EDA712A8 /* Pods-Purdue LifeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Purdue LifeUITests/Info.plist";
