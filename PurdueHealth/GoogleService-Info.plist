@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>979082406296-7but2mjjiajrhl0tme2l9036eh67sbnv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.979082406296-7but2mjjiajrhl0tme2l9036eh67sbnv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDxeiy4YC9_JvVUEVfbVJq0DQrWF5grPRc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>979082406296</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>youssefelabd.com.PurdueHealth</string>
+	<key>PROJECT_ID</key>
+	<string>project-poop</string>
+	<key>STORAGE_BUCKET</key>
+	<string>project-poop.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:979082406296:ios:dab3d4732be2c485</string>
+	<key>DATABASE_URL</key>
+	<string>https://project-poop.firebaseio.com</string>
+</dict>
+</plist>

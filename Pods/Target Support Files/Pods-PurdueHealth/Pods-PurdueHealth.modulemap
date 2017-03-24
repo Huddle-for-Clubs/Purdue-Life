@@ -1,0 +1,6 @@
+framework module Pods_PurdueHealth {
+  umbrella header "Pods-PurdueHealth-umbrella.h"
+
+  export *
+  module * { export * }
+}

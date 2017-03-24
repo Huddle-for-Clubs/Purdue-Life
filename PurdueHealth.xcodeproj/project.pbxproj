@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4607C8B81E3306D0001E09DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8B71E3306D0001E09DE /* AppDelegate.swift */; };
+		4607C8BA1E3306D0001E09DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8B91E3306D0001E09DE /* ViewController.swift */; };
+		4607C8BD1E3306D0001E09DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4607C8BB1E3306D0001E09DE /* Main.storyboard */; };
+		4607C8BF1E3306D0001E09DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4607C8BE1E3306D0001E09DE /* Assets.xcassets */; };
+		4607C8C21E3306D0001E09DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4607C8C01E3306D0001E09DE /* LaunchScreen.storyboard */; };
+		4607C8CD1E3306D0001E09DE /* PurdueHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8CC1E3306D0001E09DE /* PurdueHealthTests.swift */; };
+		4607C8D81E3306D0001E09DE /* PurdueHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8D71E3306D0001E09DE /* PurdueHealthUITests.swift */; };
+		4607C8E61E330896001E09DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4607C8E51E330896001E09DE /* GoogleService-Info.plist */; };
+		4607C8E81E332675001E09DE /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8E71E332675001E09DE /* StartViewController.swift */; };
+		4607C8EA1E3326BB001E09DE /* DiningCourtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8E91E3326BB001E09DE /* DiningCourtViewController.swift */; };
+		4607C8EE1E33363B001E09DE /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8ED1E33363B001E09DE /* ItemCell.swift */; };
+		4607C8F01E333699001E09DE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8EF1E333699001E09DE /* Item.swift */; };
+		4607C8F21E334789001E09DE /* WindsorLunchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8F11E334789001E09DE /* WindsorLunchTableView.swift */; };
+		4607C8F41E334A13001E09DE /* WindsorLunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8F31E334A13001E09DE /* WindsorLunchViewController.swift */; };
+		4607C8F61E340726001E09DE /* WileyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8F51E340726001E09DE /* WileyViewController.swift */; };
+		4607C8F81E340B81001E09DE /* FordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8F71E340B81001E09DE /* FordViewController.swift */; };
+		4607C8FC1E340DD7001E09DE /* EarhartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8FB1E340DD7001E09DE /* EarhartViewController.swift */; };
+		4607C8FE1E3410AD001E09DE /* HillenbrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8FD1E3410AD001E09DE /* HillenbrandViewController.swift */; };
+		4607C9001E341E5D001E09DE /* SectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607C8FF1E341E5D001E09DE /* SectionHeaderCell.swift */; };
+		7CE98BF590A3D8C565C8A08E /* Pods_PurdueHealthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CC35A21AC83F9536B7A10A /* Pods_PurdueHealthTests.framework */; };
+		A2AB35C1244FC42978111AD4 /* Pods_PurdueHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A97213FF4E339FA950300 /* Pods_PurdueHealthUITests.framework */; };
+		FEE3A8CFBE59A023055F7DE7 /* Pods_PurdueHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62D5F142BAA6B58FE9E3EAA /* Pods_PurdueHealth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4607C8C91E3306D0001E09DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4607C8AC1E3306D0001E09DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4607C8B31E3306D0001E09DE;
+			remoteInfo = PurdueHealth;
+		};
+		4607C8D41E3306D0001E09DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4607C8AC1E3306D0001E09DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4607C8B31E3306D0001E09DE;
+			remoteInfo = PurdueHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB917729F16B7BACC2DBA2D /* Pods-PurdueHealthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurdueHealthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PurdueHealthTests/Pods-PurdueHealthTests.release.xcconfig"; sourceTree = "<group>"; };
+		4607C8B41E3306D0001E09DE /* PurdueHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurdueHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4607C8B71E3306D0001E09DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4607C8B91E3306D0001E09DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4607C8BC1E3306D0001E09DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4607C8BE1E3306D0001E09DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4607C8C11E3306D0001E09DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4607C8C31E3306D0001E09DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4607C8C81E3306D0001E09DE /* PurdueHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurdueHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4607C8CC1E3306D0001E09DE /* PurdueHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurdueHealthTests.swift; sourceTree = "<group>"; };
+		4607C8CE1E3306D0001E09DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4607C8D31E3306D0001E09DE /* PurdueHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurdueHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4607C8D71E3306D0001E09DE /* PurdueHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurdueHealthUITests.swift; sourceTree = "<group>"; };
+		4607C8D91E3306D0001E09DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4607C8E51E330896001E09DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4607C8E71E332675001E09DE /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4607C8E91E3326BB001E09DE /* DiningCourtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiningCourtViewController.swift; sourceTree = "<group>"; };
+		4607C8ED1E33363B001E09DE /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		4607C8EF1E333699001E09DE /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4607C8F11E334789001E09DE /* WindsorLunchTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindsorLunchTableView.swift; sourceTree = "<group>"; };
+		4607C8F31E334A13001E09DE /* WindsorLunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindsorLunchViewController.swift; sourceTree = "<group>"; };
+		4607C8F51E340726001E09DE /* WileyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WileyViewController.swift; sourceTree = "<group>"; };
+		4607C8F71E340B81001E09DE /* FordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FordViewController.swift; sourceTree = "<group>"; };
+		4607C8FB1E340DD7001E09DE /* EarhartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarhartViewController.swift; sourceTree = "<group>"; };
+		4607C8FD1E3410AD001E09DE /* HillenbrandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HillenbrandViewController.swift; sourceTree = "<group>"; };
+		4607C8FF1E341E5D001E09DE /* SectionHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderCell.swift; sourceTree = "<group>"; };
+		6F0A97213FF4E339FA950300 /* Pods_PurdueHealthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurdueHealthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		708680204ECCF6A2D3327BA6 /* Pods-PurdueHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurdueHealthUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PurdueHealthUITests/Pods-PurdueHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A62D5F142BAA6B58FE9E3EAA /* Pods_PurdueHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurdueHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16B2B7D5BA45576AC31DADF /* Pods-PurdueHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurdueHealthUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PurdueHealthUITests/Pods-PurdueHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1CC35A21AC83F9536B7A10A /* Pods_PurdueHealthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PurdueHealthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93E9DEB1B68C32830EF8A07 /* Pods-PurdueHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurdueHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PurdueHealth/Pods-PurdueHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		F082D9EAF7CC250BD0FF5D47 /* Pods-PurdueHealthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurdueHealthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PurdueHealthTests/Pods-PurdueHealthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1527668D17D7346A47DF26 /* Pods-PurdueHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurdueHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-PurdueHealth/Pods-PurdueHealth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4607C8B11E3306D0001E09DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE3A8CFBE59A023055F7DE7 /* Pods_PurdueHealth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4607C8C51E3306D0001E09DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE98BF590A3D8C565C8A08E /* Pods_PurdueHealthTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4607C8D01E3306D0001E09DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2AB35C1244FC42978111AD4 /* Pods_PurdueHealthUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F8510402876D2336C1989A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D93E9DEB1B68C32830EF8A07 /* Pods-PurdueHealth.debug.xcconfig */,
+				FF1527668D17D7346A47DF26 /* Pods-PurdueHealth.release.xcconfig */,
+				F082D9EAF7CC250BD0FF5D47 /* Pods-PurdueHealthTests.debug.xcconfig */,
+				0BB917729F16B7BACC2DBA2D /* Pods-PurdueHealthTests.release.xcconfig */,
+				708680204ECCF6A2D3327BA6 /* Pods-PurdueHealthUITests.debug.xcconfig */,
+				C16B2B7D5BA45576AC31DADF /* Pods-PurdueHealthUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4607C8AB1E3306D0001E09DE = {
+			isa = PBXGroup;
+			children = (
+				4607C8B61E3306D0001E09DE /* PurdueHealth */,
+				4607C8CB1E3306D0001E09DE /* PurdueHealthTests */,
+				4607C8D61E3306D0001E09DE /* PurdueHealthUITests */,
+				4607C8B51E3306D0001E09DE /* Products */,
+				01F8510402876D2336C1989A /* Pods */,
+				588640EB028D873D30D61809 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4607C8B51E3306D0001E09DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4607C8B41E3306D0001E09DE /* PurdueHealth.app */,
+				4607C8C81E3306D0001E09DE /* PurdueHealthTests.xctest */,
+				4607C8D31E3306D0001E09DE /* PurdueHealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4607C8B61E3306D0001E09DE /* PurdueHealth */ = {
+			isa = PBXGroup;
+			children = (
+				4607C8B71E3306D0001E09DE /* AppDelegate.swift */,
+				4607C8B91E3306D0001E09DE /* ViewController.swift */,
+				4607C8BB1E3306D0001E09DE /* Main.storyboard */,
+				4607C8BE1E3306D0001E09DE /* Assets.xcassets */,
+				4607C8C01E3306D0001E09DE /* LaunchScreen.storyboard */,
+				4607C8C31E3306D0001E09DE /* Info.plist */,
+				4607C8E51E330896001E09DE /* GoogleService-Info.plist */,
+				4607C8E71E332675001E09DE /* StartViewController.swift */,
+				4607C8E91E3326BB001E09DE /* DiningCourtViewController.swift */,
+				4607C8FF1E341E5D001E09DE /* SectionHeaderCell.swift */,
+				4607C8ED1E33363B001E09DE /* ItemCell.swift */,
+				4607C8EF1E333699001E09DE /* Item.swift */,
+				4607C8F11E334789001E09DE /* WindsorLunchTableView.swift */,
+				4607C8FA1E340D7D001E09DE /* DiningCourts */,
+			);
+			path = PurdueHealth;
+			sourceTree = "<group>";
+		};
+		4607C8CB1E3306D0001E09DE /* PurdueHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				4607C8CC1E3306D0001E09DE /* PurdueHealthTests.swift */,
+				4607C8CE1E3306D0001E09DE /* Info.plist */,
+			);
+			path = PurdueHealthTests;
+			sourceTree = "<group>";
+		};
+		4607C8D61E3306D0001E09DE /* PurdueHealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4607C8D71E3306D0001E09DE /* PurdueHealthUITests.swift */,
+				4607C8D91E3306D0001E09DE /* Info.plist */,
+			);
+			path = PurdueHealthUITests;
+			sourceTree = "<group>";
+		};
+		4607C8FA1E340D7D001E09DE /* DiningCourts */ = {
+			isa = PBXGroup;
+			children = (
+				4607C8FD1E3410AD001E09DE /* HillenbrandViewController.swift */,
+				4607C8FB1E340DD7001E09DE /* EarhartViewController.swift */,
+				4607C8F31E334A13001E09DE /* WindsorLunchViewController.swift */,
+				4607C8F51E340726001E09DE /* WileyViewController.swift */,
+				4607C8F71E340B81001E09DE /* FordViewController.swift */,
+			);
+			name = DiningCourts;
+			sourceTree = "<group>";
+		};
+		588640EB028D873D30D61809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A62D5F142BAA6B58FE9E3EAA /* Pods_PurdueHealth.framework */,
+				D1CC35A21AC83F9536B7A10A /* Pods_PurdueHealthTests.framework */,
+				6F0A97213FF4E339FA950300 /* Pods_PurdueHealthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4607C8B31E3306D0001E09DE /* PurdueHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4607C8DC1E3306D0001E09DE /* Build configuration list for PBXNativeTarget "PurdueHealth" */;
+			buildPhases = (
+				8FB235AC5D3F7A7C35F3A2B3 /* [CP] Check Pods Manifest.lock */,
+				4607C8B01E3306D0001E09DE /* Sources */,
+				4607C8B11E3306D0001E09DE /* Frameworks */,
+				4607C8B21E3306D0001E09DE /* Resources */,
+				C14134372BA0A5DE5F766762 /* [CP] Embed Pods Frameworks */,
+				FFB292986A67D552D837FBCC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurdueHealth;
+			productName = PurdueHealth;
+			productReference = 4607C8B41E3306D0001E09DE /* PurdueHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4607C8C71E3306D0001E09DE /* PurdueHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4607C8DF1E3306D0001E09DE /* Build configuration list for PBXNativeTarget "PurdueHealthTests" */;
+			buildPhases = (
+				8398265D6A8F851EE2A9615D /* [CP] Check Pods Manifest.lock */,
+				4607C8C41E3306D0001E09DE /* Sources */,
+				4607C8C51E3306D0001E09DE /* Frameworks */,
+				4607C8C61E3306D0001E09DE /* Resources */,
+				03E597B371B6C90C8733E97A /* [CP] Embed Pods Frameworks */,
+				93E598B634C5D44BF8A7AE94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4607C8CA1E3306D0001E09DE /* PBXTargetDependency */,
+			);
+			name = PurdueHealthTests;
+			productName = PurdueHealthTests;
+			productReference = 4607C8C81E3306D0001E09DE /* PurdueHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4607C8D21E3306D0001E09DE /* PurdueHealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4607C8E21E3306D0001E09DE /* Build configuration list for PBXNativeTarget "PurdueHealthUITests" */;
+			buildPhases = (
+				DDE14251DB6FE57454A2CE8C /* [CP] Check Pods Manifest.lock */,
+				4607C8CF1E3306D0001E09DE /* Sources */,
+				4607C8D01E3306D0001E09DE /* Frameworks */,
+				4607C8D11E3306D0001E09DE /* Resources */,
+				13AA7E4400BF7767789EB732 /* [CP] Embed Pods Frameworks */,
+				3E67B1602406226095B9AD44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4607C8D51E3306D0001E09DE /* PBXTargetDependency */,
+			);
+			name = PurdueHealthUITests;
+			productName = PurdueHealthUITests;
+			productReference = 4607C8D31E3306D0001E09DE /* PurdueHealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4607C8AC1E3306D0001E09DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Youssef Elabd";
+				TargetAttributes = {
+					4607C8B31E3306D0001E09DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 947H8H8XTC;
+						ProvisioningStyle = Automatic;
+					};
+					4607C8C71E3306D0001E09DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4607C8B31E3306D0001E09DE;
+					};
+					4607C8D21E3306D0001E09DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4607C8B31E3306D0001E09DE;
+					};
+				};
+			};
+			buildConfigurationList = 4607C8AF1E3306D0001E09DE /* Build configuration list for PBXProject "PurdueHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4607C8AB1E3306D0001E09DE;
+			productRefGroup = 4607C8B51E3306D0001E09DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4607C8B31E3306D0001E09DE /* PurdueHealth */,
+				4607C8C71E3306D0001E09DE /* PurdueHealthTests */,
+				4607C8D21E3306D0001E09DE /* PurdueHealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4607C8B21E3306D0001E09DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4607C8C21E3306D0001E09DE /* LaunchScreen.storyboard in Resources */,
+				4607C8E61E330896001E09DE /* GoogleService-Info.plist in Resources */,
+				4607C8BF1E3306D0001E09DE /* Assets.xcassets in Resources */,
+				4607C8BD1E3306D0001E09DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4607C8C61E3306D0001E09DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4607C8D11E3306D0001E09DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E597B371B6C90C8733E97A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PurdueHealthTests/Pods-PurdueHealthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13AA7E4400BF7767789EB732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PurdueHealthUITests/Pods-PurdueHealthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E67B1602406226095B9AD44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PurdueHealthUITests/Pods-PurdueHealthUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8398265D6A8F851EE2A9615D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB235AC5D3F7A7C35F3A2B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93E598B634C5D44BF8A7AE94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PurdueHealthTests/Pods-PurdueHealthTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C14134372BA0A5DE5F766762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PurdueHealth/Pods-PurdueHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE14251DB6FE57454A2CE8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFB292986A67D552D837FBCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PurdueHealth/Pods-PurdueHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4607C8B01E3306D0001E09DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4607C8BA1E3306D0001E09DE /* ViewController.swift in Sources */,
+				4607C8F21E334789001E09DE /* WindsorLunchTableView.swift in Sources */,
+				4607C9001E341E5D001E09DE /* SectionHeaderCell.swift in Sources */,
+				4607C8EE1E33363B001E09DE /* ItemCell.swift in Sources */,
+				4607C8B81E3306D0001E09DE /* AppDelegate.swift in Sources */,
+				4607C8F01E333699001E09DE /* Item.swift in Sources */,
+				4607C8FC1E340DD7001E09DE /* EarhartViewController.swift in Sources */,
+				4607C8F61E340726001E09DE /* WileyViewController.swift in Sources */,
+				4607C8E81E332675001E09DE /* StartViewController.swift in Sources */,
+				4607C8FE1E3410AD001E09DE /* HillenbrandViewController.swift in Sources */,
+				4607C8F81E340B81001E09DE /* FordViewController.swift in Sources */,
+				4607C8F41E334A13001E09DE /* WindsorLunchViewController.swift in Sources */,
+				4607C8EA1E3326BB001E09DE /* DiningCourtViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4607C8C41E3306D0001E09DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4607C8CD1E3306D0001E09DE /* PurdueHealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4607C8CF1E3306D0001E09DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4607C8D81E3306D0001E09DE /* PurdueHealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4607C8CA1E3306D0001E09DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4607C8B31E3306D0001E09DE /* PurdueHealth */;
+			targetProxy = 4607C8C91E3306D0001E09DE /* PBXContainerItemProxy */;
+		};
+		4607C8D51E3306D0001E09DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4607C8B31E3306D0001E09DE /* PurdueHealth */;
+			targetProxy = 4607C8D41E3306D0001E09DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4607C8BB1E3306D0001E09DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4607C8BC1E3306D0001E09DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4607C8C01E3306D0001E09DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4607C8C11E3306D0001E09DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4607C8DA1E3306D0001E09DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4607C8DB1E3306D0001E09DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4607C8DD1E3306D0001E09DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93E9DEB1B68C32830EF8A07 /* Pods-PurdueHealth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 947H8H8XTC;
+				INFOPLIST_FILE = PurdueHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youssefelabd.com.PurdueHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4607C8DE1E3306D0001E09DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1527668D17D7346A47DF26 /* Pods-PurdueHealth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 947H8H8XTC;
+				INFOPLIST_FILE = PurdueHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youssefelabd.com.PurdueHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4607C8E01E3306D0001E09DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F082D9EAF7CC250BD0FF5D47 /* Pods-PurdueHealthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PurdueHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youssefelabd.com.PurdueHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurdueHealth.app/PurdueHealth";
+			};
+			name = Debug;
+		};
+		4607C8E11E3306D0001E09DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB917729F16B7BACC2DBA2D /* Pods-PurdueHealthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PurdueHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youssefelabd.com.PurdueHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurdueHealth.app/PurdueHealth";
+			};
+			name = Release;
+		};
+		4607C8E31E3306D0001E09DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708680204ECCF6A2D3327BA6 /* Pods-PurdueHealthUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PurdueHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youssefelabd.com.PurdueHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PurdueHealth;
+			};
+			name = Debug;
+		};
+		4607C8E41E3306D0001E09DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16B2B7D5BA45576AC31DADF /* Pods-PurdueHealthUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PurdueHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = youssefelabd.com.PurdueHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PurdueHealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4607C8AF1E3306D0001E09DE /* Build configuration list for PBXProject "PurdueHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4607C8DA1E3306D0001E09DE /* Debug */,
+				4607C8DB1E3306D0001E09DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4607C8DC1E3306D0001E09DE /* Build configuration list for PBXNativeTarget "PurdueHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4607C8DD1E3306D0001E09DE /* Debug */,
+				4607C8DE1E3306D0001E09DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4607C8DF1E3306D0001E09DE /* Build configuration list for PBXNativeTarget "PurdueHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4607C8E01E3306D0001E09DE /* Debug */,
+				4607C8E11E3306D0001E09DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4607C8E21E3306D0001E09DE /* Build configuration list for PBXNativeTarget "PurdueHealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4607C8E31E3306D0001E09DE /* Debug */,
+				4607C8E41E3306D0001E09DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4607C8AC1E3306D0001E09DE /* Project object */;
+}
