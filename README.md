@@ -4,10 +4,9 @@ Choosing which dining court to eat at can be annoying process, especially when y
 
 # User Stories
 The following is **required**:
-- [ ] User can view dining court menus 
+- [x] User can view dining court menus 
 - [ ] User can add favorite food
 - [ ] User can edit food preferences
-- [ ] User can 'like' food
 
 The following are **optional**:
 - [ ] Custom backend used for data analysis
@@ -15,6 +14,7 @@ The following are **optional**:
 - [ ] User can see a map of campus and their path from dinning courts and classes
 - [ ] Push notification an hour before each meal about food options
 - [ ] Track meal swipes
+- [ ] User can 'like' food
 
 # User Stories
 
