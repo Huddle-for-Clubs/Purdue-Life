@@ -13,6 +13,8 @@ The following are **optional**:
 - [ ] Custom backend used for data analysis
 - [ ] Users' class schedules integrated into app for better dinning court suggestions based on time to and distance from classes
 - [ ] User can see a map of campus and their path from dinning courts and classes
+- [ ] Push notification an hour before each meal about food options
+- [ ] Track meal swipes
 
 # User Stories
 
