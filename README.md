@@ -7,6 +7,7 @@ The following is **required**:
 - [x] User can view dining court menus 
 - [ ] User can add favorite food
 - [ ] User can edit food preferences
+- [ ] User can 'like' food
 
 The following are **optional**:
 - [ ] Custom backend used for data analysis
@@ -14,7 +15,6 @@ The following are **optional**:
 - [ ] User can see a map of campus and their path from dinning courts and classes
 - [ ] Push notification an hour before each meal about food options
 - [ ] Track meal swipes
-- [ ] User can 'like' food
 
 # User Stories
 
